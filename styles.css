@@ -1,0 +1,82 @@
+/* GENERAL */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+#titre {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+/* BTN */
+#divbtn{
+    clear: both;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+   background-color: #4d4e50;
+   color: azure;
+   font-weight: bold;
+   letter-spacing: 1px;
+   border-radius: 50px;
+   height: 60px;
+   width: 120px;
+   margin: 20px auto;
+   display: inline-block;
+   cursor: pointer;
+}
+
+.btn:hover{
+   opacity: 0.8;
+}
+
+#container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#joueur-side{
+
+}
+
+#joueur{
+   width: 550px;
+   height: 400px;
+   position: relative;
+   opacity: 0;
+}
+
+ /* */ 
+
+#ia-side{
+    height: 600px;
+    text-align: center;
+}
+
+#adversaire {
+   width: 550px;
+   height: 400px;
+   opacity: 0;
+}
+
+#ia-choice{
+    margin-top: 50px;
+    font-size: 28px;
+}
+
+/* resultat.. */ 
+
+#resultat {
+   text-align: center;
+   font-size: 50px;
+   position: absolute;
+   bottom: 150px;
+   right:0;
+   left: 0;
+}
+
