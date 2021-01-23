@@ -2,70 +2,40 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family:Arial, sans-serif;
 }
 
+body{
+    width: 100vw;
+    height: 100%;
+    overflow: hidden;
+}
 
 #titre {
     text-align: center;
-}
-
-/* BTN */
-#divbtn{
-    clear: both;
-    display: flex;
-    justify-content: space-around;
-}
-
-.btn {
-   background-color: #4d4e50;
-   color: azure;
-   font-weight: bold;
-   letter-spacing: 1px;
-   border-radius: 50px;
-   height: 60px;
-   width: 120px;
-   margin: 20px auto;
-   display: inline-block;
-   cursor: pointer;
-}
-
-.btn:hover{
-   opacity: 0.8;
+    margin-bottom: 30px;
 }
 
 #container{
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
-#joueur-side{
-
-}
 
 #joueur{
    width: 550px;
    height: 400px;
-   position: relative;
    opacity: 0;
 }
 
  /* */ 
 
-#ia-side{
-    height: 600px;
-    text-align: center;
-}
 
 #adversaire {
    width: 550px;
    height: 400px;
    opacity: 0;
-}
-
-#ia-choice{
-    margin-top: 50px;
-    font-size: 28px;
 }
 
 /* resultat.. */ 
@@ -79,3 +49,29 @@
    left: 0;
 }
 
+/* BTN */
+#divbtn{
+    display: flex;
+    justify-content: space-around;
+    margin: 200px 0;
+}
+
+.btn {
+    background-color: #f1f1f1;
+   color: #1a1a1a;
+   
+   font-weight: bold;
+   letter-spacing: 1px;
+   border-radius: 20px;
+   height: 50px;
+   width: 120px;
+   margin: 20px auto;
+   display: inline-block;
+   cursor: pointer;
+   transition: 0.3s linear;
+}
+
+.btn:hover{
+    background-color: #303030;
+    color: #ddd;
+}
