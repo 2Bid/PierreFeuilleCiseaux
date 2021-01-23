@@ -15,8 +15,8 @@ for (let i=0; i < buttons.length; i++){
   if (joueur ==='PIERRE' && ia === 'PIERRE'){
        setTimeout(
           function(){
-               $('#joueur').attr('src','/images/left-rock.png')&&
-               $('#adversaire').attr('src','/images/right-rock.png')
+               $('#joueur').attr('src','https://2bid.github.io/PierreFeuilleCiseaux/images/left-rock.png')&&
+               $('#adversaire').attr('src','https://2bid.github.io/PierreFeuilleCiseaux/images/right-rock.png')
           }, 350)
         document.getElementById('resultat').innerHTML = "Egalité !";
         document.getElementById('ia-choice').innerHTML = "L'ennemi a choisi la pierre !";
@@ -27,8 +27,8 @@ for (let i=0; i < buttons.length; i++){
         setTimeout(
              function(){
                   
-        $('#joueur').attr('src','/images/left-rock.png')&&
-        $('#adversaire').attr('src','/images/right-paper.png')
+        $('#joueur').attr('src','https://2bid.github.io/PierreFeuilleCiseaux/images/left-rock.png')&&
+        $('#adversaire').attr('src','https://2bid.github.io/PierreFeuilleCiseaux/images/right-paper.png')
              }, 350
         )
         document.getElementById('resultat').innerHTML = "Perdu !";
@@ -40,8 +40,8 @@ for (let i=0; i < buttons.length; i++){
    else if (joueur ==='PIERRE' && ia === 'CISEAUX'){
         setTimeout(
              function(){
-               $('#joueur').attr('src','/images/left-rock.png')&&
-               $('#adversaire').attr('src','/images/right-scissors.png')
+               $('#joueur').attr('src','https://2bid.github.io/PierreFeuilleCiseaux/images/left-rock.png')&&
+               $('#adversaire').attr('src','https://2bid.github.io/PierreFeuilleCiseaux/images/right-scissors.png')
              }, 350
         )
         document.getElementById('resultat').innerHTML = "Gagné !";
@@ -53,8 +53,8 @@ for (let i=0; i < buttons.length; i++){
         setTimeout(
              function(){
                   
-               $('#joueur').attr('src','/images/left-paper.png')&&
-               $('#adversaire').attr('src','/images/right-rock.png');
+               $('#joueur').attr('src','https://2bid.github.io/PierreFeuilleCiseaux/images/left-paper.png')&&
+               $('#adversaire').attr('src','https://2bid.github.io/PierreFeuilleCiseaux/images/right-rock.png');
              },350
         )
         document.getElementById('resultat').innerHTML = "Gagné !";
@@ -66,8 +66,8 @@ for (let i=0; i < buttons.length; i++){
         setTimeout(
              function(){
                   
-        $('#joueur').attr('src','/images/left-paper.png')&&
-        $('#adversaire').attr('src','/images/right-paper.png');
+        $('#joueur').attr('src','https://2bid.github.io/PierreFeuilleCiseaux/images/left-paper.png')&&
+        $('#adversaire').attr('src','https://2bid.github.io/PierreFeuilleCiseaux/images/right-paper.png');
              }, 350
         )
         document.getElementById('resultat').innerHTML = "Egalité !";
@@ -79,8 +79,8 @@ for (let i=0; i < buttons.length; i++){
         setTimeout(
              function(){
                   
-        $('#joueur').attr('src','/images/left-paper.png')&&
-        $('#adversaire').attr('src','/images/right-scissors.png');
+        $('#joueur').attr('src','https://2bid.github.io/PierreFeuilleCiseaux/images/left-paper.png')&&
+        $('#adversaire').attr('src','https://2bid.github.io/PierreFeuilleCiseaux/images/right-scissors.png');
              },350
         )
         document.getElementById('resultat').innerHTML = "Perdu !";
@@ -92,8 +92,8 @@ for (let i=0; i < buttons.length; i++){
         setTimeout(
              function(){
                   
-        $('#joueur').attr('src','/images/left-scissors.png')&&
-        $('#adversaire').attr('src','/images/right-rock.png');
+        $('#joueur').attr('src','https://2bid.github.io/PierreFeuilleCiseaux/images/left-scissors.png')&&
+        $('#adversaire').attr('src','https://2bid.github.io/PierreFeuilleCiseaux/images/right-rock.png');
              } ,350
         )
         document.getElementById('resultat').innerHTML = "Perdu !";
@@ -104,8 +104,8 @@ for (let i=0; i < buttons.length; i++){
    else if (joueur ==='CISEAUX' && ia === 'FEUILLE'){
         setTimeout(() => {
              
-        $('#joueur').attr('src','/images/left-scissors.png')&&
-        $('#adversaire').attr('src','/images/right-paper.png')
+        $('#joueur').attr('src','https://2bid.github.io/PierreFeuilleCiseaux/images/left-scissors.png')&&
+        $('#adversaire').attr('src','https://2bid.github.io/PierreFeuilleCiseaux/images/right-paper.png')
         }, 350);
         document.getElementById('resultat').innerHTML = "Gagné !";
         document.getElementById('ia-choice').innerHTML = "L'ennemi a choisi la feuille !";
@@ -116,8 +116,8 @@ for (let i=0; i < buttons.length; i++){
    else if (joueur ==='CISEAUX' && ia === 'CISEAUX'){
         setTimeout(() => {
              
-        $('#joueur').attr('src','/images/left-scissors.png')&&
-        $('#adversaire').attr('src','/images/right-scissors.png');
+        $('#joueur').attr('src','https://2bid.github.io/PierreFeuilleCiseaux/images/left-scissors.png')&&
+        $('#adversaire').attr('src','https://2bid.github.io/PierreFeuilleCiseaux/images/right-scissors.png');
         }, 350);
         document.getElementById('resultat').innerHTML = "Egalité !";
         document.getElementById('ia-choice').innerHTML = "L'ennemi a choisi les ciseaux !";
