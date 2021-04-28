@@ -18,7 +18,7 @@ for (let i=0; i < buttons.length; i++){
                $('#joueur').attr('src','https://2bid.github.io/PierreFeuilleCiseaux/images/left-rock.png')&&
                $('#adversaire').attr('src','https://2bid.github.io/PierreFeuilleCiseaux/images/right-rock.png')
           }, 350)
-        document.getElementById('resultat').innerHTML = "Personne perd !";
+        document.getElementById('resultat').innerHTML = "Personne ne perd !";
         $('#adversaire').fadeTo('normal', 1);
         $('#joueur').fadeTo('normal', 1);
    }
