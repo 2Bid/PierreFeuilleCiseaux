@@ -1,3 +1,3 @@
-# Rock ~ Paper ~ Scissors
-Game
-You vs IA 
+# Rock ~ Paper ~ Scissors #
+
+Réalisation perso du célèbre jeu "Pierre Feuille Ciseaux"
